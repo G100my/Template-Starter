@@ -12,6 +12,8 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 # Dependencies
 
+- [vue-router@4](https://router.vuejs.org/guide/)
+  - [vue-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
 - [vue-i18n@9](https://vue-i18n.intlify.dev/introduction.html)
 
 # Extensions
