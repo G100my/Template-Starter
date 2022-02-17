@@ -21,6 +21,7 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - [eslint-config-prettier](https://prettier.io/docs/en/related-projects.html#eslint-integrations)
 - [@vue/eslint-config-typescript](https://github.com/vuejs/eslint-config-typescript)
   - @rushstack/eslint-patch
+- [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 
 # Testing
 
