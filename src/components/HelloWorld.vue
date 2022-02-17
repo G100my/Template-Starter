@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useField } from 'vee-validate'
+import * as yup from 'yup'
 
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+
+const { errorMessage, value } = useField('email', yup.string().required().email())
 </script>
 
 <template>
@@ -19,9 +23,7 @@ const count = ref(0)
   <p>See <code>README.md</code> for more information.</p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
+    <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
     |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
@@ -31,6 +33,13 @@ const count = ref(0)
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+  <form>
+    <label>
+      <span>vee-validate + yup: </span>
+      <input v-model="value" type="text" />
+    </label>
+    <p>{{ errorMessage }}</p>
+  </form>
 </template>
 
 <style scoped>
