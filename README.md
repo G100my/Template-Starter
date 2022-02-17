@@ -25,6 +25,9 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - [vee-validate](https://vee-validate.logaretm.com/v4/guide/composition-api/validation)
 - [yup](https://github.com/jquense/yup)
 
+- [Tailwindcss](https://tailwindcss.com/docs/utility-first)
+  - [prettier prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+
 # Testing
 
 - [Cypress](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress)
