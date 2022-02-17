@@ -28,6 +28,8 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 # Testing
 
 - [Cypress](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress)
+- [vite-plugin-inspect](https://github.com/antfu/vite-plugin-inspect)
+  - [http://localhost:3000/\_\_inspect/](http://localhost:3000/__inspect/)
 
 # Extensions
 
