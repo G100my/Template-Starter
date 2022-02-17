@@ -22,6 +22,8 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - [@vue/eslint-config-typescript](https://github.com/vuejs/eslint-config-typescript)
   - @rushstack/eslint-patch
 - [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
+- [vee-validate](https://vee-validate.logaretm.com/v4/guide/composition-api/validation)
+- [yup](https://github.com/jquense/yup)
 
 # Testing
 
