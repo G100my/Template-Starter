@@ -4,4 +4,6 @@ import i18n from './locales'
 import router from './router'
 import { createPinia } from 'pinia'
 
+import './index.css'
+
 createApp(App).use(router).use(createPinia()).use(i18n).mount('#app')
