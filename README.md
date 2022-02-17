@@ -16,6 +16,11 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 - [vue-router@4](https://router.vuejs.org/guide/)
   - [vue-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
 - [vue-i18n@9](https://vue-i18n.intlify.dev/introduction.html)
+- [eslint-plugin-vue](https://eslint.vuejs.org/)
+- [eslint-plugin-cypress](https://github.com/cypress-io/eslint-plugin-cypress)
+- [eslint-config-prettier](https://prettier.io/docs/en/related-projects.html#eslint-integrations)
+- [@vue/eslint-config-typescript](https://github.com/vuejs/eslint-config-typescript)
+  - @rushstack/eslint-patch
 
 # Testing
 
